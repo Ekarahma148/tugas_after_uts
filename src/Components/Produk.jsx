@@ -26,7 +26,7 @@ const Produk = ({ products, onAddToCart, search }) => {
             <img src={product.image} alt={product.name} /><br />
             <HeartIcon onClick={() => handleLike(product.id)} style={{ fill: liked[product.id] ? 'red' : 'white' }} />
             <InfoIcon onClick={() => handleInfo(product)} />
-            <button onClick={() => onAddToCart(product)}>Add to Cart</button>
+            <button onClick={() => onAddToCart(product)}>Add </button>
           </div>
         ))}
         {info && (

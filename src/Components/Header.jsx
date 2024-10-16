@@ -5,7 +5,7 @@ const Header = ({ cartCount, onCartClick, search, setSearch }) => {
   return (
     <header>
       <h1>My Product List</h1>
-      <div className='search-container'>
+      <div className='search'>
         <input
           type="text"
           placeholder="cari disini"
